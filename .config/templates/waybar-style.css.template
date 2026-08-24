@@ -7,22 +7,22 @@
 }
 
 window#waybar {
-    background: rgba(30,30,46,0.8);
-    color: #cdd6f4;
+    background: ${TRANSPARENT_BG};
+    color: ${FG};
 }
 
 #workspaces button {
     padding: 0 5px;
     background: transparent;
-    color: #cdd6f4;
+    color: ${FG};
 }
 
 #workspaces button.active {
-    background: #cba6f7;
-    color: #11111b;
+    background: ${ACCENT};
+    color: ${BLACK};
 }
 
 #clock, #battery, #network, #pulseaudio, #tray {
     padding: 0 10px;
-    color: #cdd6f4;
+    color: ${FG};
 }

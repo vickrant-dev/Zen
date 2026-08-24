@@ -6,41 +6,41 @@ cursor_shape     beam
 cursor_blink_interval 0
 
 background_opacity 0.9
-background #1e1e2e
-foreground #cdd6f4
-cursor #cba6f7
+background ${BG}
+foreground ${FG}
+cursor ${ACCENT}
 
 # Black
-color0 #11111b
-color8 #11111b
+color0 ${BLACK}
+color8 ${BLACK}
 
 # Red
-color1 #f38ba8
-color9 #f38ba8
+color1 ${RED}
+color9 ${RED}
 
 # Green
-color2 #a6e3a1
-color10 #a6e3a1
+color2 ${GREEN}
+color10 ${GREEN}
 
 # Yellow
-color3 #f9e2af
-color11 #f9e2af
+color3 ${YELLOW}
+color11 ${YELLOW}
 
 # Blue
-color4 #89b4fa
-color12 #89b4fa
+color4 ${BLUE}
+color12 ${BLUE}
 
 # Magenta
-color5 #f5c2e7
-color13 #f5c2e7
+color5 ${MAGENTA}
+color13 ${MAGENTA}
 
 # Cyan
-color6 #94e2d5
-color14 #94e2d5
+color6 ${CYAN}
+color14 ${CYAN}
 
 # White
-color7 #cdd6f4
-color15 #cdd6f4
+color7 ${WHITE}
+color15 ${WHITE}
 
 scrollback_lines 10000
 tab_bar_style powerline

@@ -1,7 +1,7 @@
 font=JetBrains Mono 11
-background-color=#1e1e2e
-text-color=#cdd6f4
-border-color=#cba6f7
+background-color=${BG}
+text-color=${FG}
+border-color=${ACCENT}
 border-size=2
 default-timeout=5000
 margin=10

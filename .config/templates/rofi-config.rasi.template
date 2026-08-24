@@ -1,0 +1,21 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    font: "JetBrains Mono 12";
+    width: 40;
+    lines: 10;
+    terminal: "kitty";
+    location: 0;
+    anchor: "center";
+}
+
+* {
+    background: ${BG};
+    foreground: ${FG};
+    accent: ${ACCENT};
+    urgent: ${RED};
+    selected-normal-background: ${ACCENT};
+    selected-normal-foreground: ${BLACK};
+    active-background: ${ACCENT};
+    active-foreground: ${BLACK};
+}

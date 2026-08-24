@@ -1,10 +1,21 @@
 configuration {
-	modi: "drun,run";
-	show-icons: true;
-	font: "JetBrains Mono 12";
-	width: 40;
-	lines: 10;
-	terminal: "kitty";
-	location: 0;
-	anchor: "center";
+    modi: "drun,run";
+    show-icons: true;
+    font: "JetBrains Mono 12";
+    width: 40;
+    lines: 10;
+    terminal: "kitty";
+    location: 0;
+    anchor: "center";
+}
+
+* {
+    background: #1e1e2e;
+    foreground: #cdd6f4;
+    accent: #cba6f7;
+    urgent: #f38ba8;
+    selected-normal-background: #cba6f7;
+    selected-normal-foreground: #11111b;
+    active-background: #cba6f7;
+    active-foreground: #11111b;
 }
