@@ -1,0 +1,10 @@
+configuration {
+	modi: "drun,run";
+	show-icons: true;
+	font: "JetBrains Mono 12";
+	width: 40;
+	lines: 10;
+	terminal: "kitty";
+	location: 0;
+	anchor: "center";
+}
